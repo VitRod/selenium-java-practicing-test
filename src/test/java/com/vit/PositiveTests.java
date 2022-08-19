@@ -65,7 +65,7 @@ public class PositiveTests {
 
 		// Close browser
 		driver.quit();
-	}
+	}   
 
 	private void sleep(long m) {
 		try {
