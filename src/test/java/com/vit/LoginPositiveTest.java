@@ -7,16 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PositiveTests {
+public class LoginPositiveTest {
 
-     
 	@Test
 	public void loginTest() {
-
-    
-	@Test   
-	public void loginTest() { 
-
 		System.out.println("Starting loginTest");
 
 //		Create driver
@@ -71,7 +65,7 @@ public class PositiveTests {
 
 		// Close browser
 		driver.quit();
-	}   
+	}
 
 	private void sleep(long m) {
 		try {
