@@ -33,7 +33,7 @@ public class PositiveTest {
 //		enter username
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");
-		sleep(1000);
+		sleep(1000);   
 
 //		enter password
 		WebElement password = driver.findElement(By.name("password"));
