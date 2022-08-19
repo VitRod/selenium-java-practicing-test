@@ -8,9 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PositiveTests {
-
-	@Test
-	public void loginTest() {
+    
+	@Test   
+	public void loginTest() { 
 		System.out.println("Starting loginTest");
 
 //		Create driver
