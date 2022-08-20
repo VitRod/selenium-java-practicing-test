@@ -12,6 +12,8 @@ public class NegativeTests {
 	@Test
 	public void incorrectUsernameTest() {
 		System.out.println("Starting incorrectUsernameTest");
+	
+	
 
 //		Create driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
