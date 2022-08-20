@@ -13,14 +13,14 @@ public class NegativeTests {
 	public void incorrectUsernameTest() {
 		System.out.println("Starting incorrectUsernameTest");
 	
-	
+//		Create driver
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 	
 
 		
 		
-//		Create driver
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+
 
 		// sleep for 3 seconds
 		sleep(3000);
