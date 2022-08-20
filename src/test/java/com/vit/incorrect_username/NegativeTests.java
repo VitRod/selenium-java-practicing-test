@@ -64,6 +64,6 @@ public class NegativeTests {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	}    
 
 }
