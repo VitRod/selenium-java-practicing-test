@@ -42,16 +42,16 @@ public class NegativeTests {
 
 		sleep(3000);
 		
-
+		// Verifications
+		WebElement errorMessage = driver.findElement(By.id("flash"));
+		String expectedErrorMessage = "Your username is invalid!";
+		String actualErrorMessage = errorMessage.getText();
 
 
 
 		
 
-		// Verifications
-		WebElement errorMessage = driver.findElement(By.id("flash"));
-		String expectedErrorMessage = "Your username is invalid!";
-		String actualErrorMessage = errorMessage.getText();
+		
 
 		Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),
 				"Actual error message does not contain expected. \nActual: " 
