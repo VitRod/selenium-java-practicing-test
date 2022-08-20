@@ -53,13 +53,15 @@ public class NegativeTests {
 						+ actualErrorMessage + "\nExpected: "
 						+ expectedErrorMessage);
 		
-
-		
-
 		
 		
 		// Close browser
-		driver.quit();
+				driver.quit();
+		
+
+		
+		
+		
 	}
 
 	@Test
