@@ -20,13 +20,13 @@ public class NegativeTests {
 		// sleep for 3 seconds
 		sleep(3000);
 		
-		
-
-
-		
-
 		// maximize browser window
 		driver.manage().window().maximize();
+
+
+		
+
+		
 
 //		open test page
 		String url = "http://the-internet.herokuapp.com/login";
