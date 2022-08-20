@@ -2,4 +2,4 @@
 
 # Testing of the  website
 
-![]( https://pbs.twimg.com/media/FalH9jBWIAAJMgW?format=png&name=360x360  )
+![]( https://pbs.twimg.com/media/FalheLzWIAA05TJ?format=png&name=small )
