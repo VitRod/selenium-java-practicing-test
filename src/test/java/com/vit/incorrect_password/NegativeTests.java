@@ -57,12 +57,12 @@ public class NegativeTests {
 		
 		// Close browser
 				driver.quit();
-		
+	}	
 
 		
 		
 		
-	}
+	
 
 	@Test
 	public void incorrectPasswordTest() {
