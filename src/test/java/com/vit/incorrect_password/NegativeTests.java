@@ -28,14 +28,14 @@ public class NegativeTests {
 		driver.get(url);
 		System.out.println("Page is opened.");
 		
-
+//		enter username
+		WebElement username = driver.findElement(By.id("username"));
+		username.sendKeys("incorrectUsername");
 		
 
 
 
-//		enter username
-		WebElement username = driver.findElement(By.id("username"));
-		username.sendKeys("incorrectUsername");
+
 		
 
 //		enter password
