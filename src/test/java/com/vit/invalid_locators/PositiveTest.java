@@ -1,4 +1,4 @@
-package com.vit_invalid_locators;
+package com.vit.invalid_locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
