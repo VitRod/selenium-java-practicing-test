@@ -59,14 +59,14 @@ public class NegativeTests {
 				driver.quit();
 	}	
 
-		
+	@Test
+	public void incorrectPasswordTest() {
+		System.out.println("Starting incorrectPasswordTest");
 		
 		
 	
 
-	@Test
-	public void incorrectPasswordTest() {
-		System.out.println("Starting incorrectPasswordTest");
+	
 
 //		Create driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
