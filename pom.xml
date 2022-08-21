@@ -44,7 +44,7 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 					<suiteXmlFiles>
-					  <suiteXmlFile>src/test/resources/TestSuites/AllTests.xml</suiteXmlFile> 
+					<!--   <suiteXmlFile>src/test/resources/TestSuites/AllTests.xml</suiteXmlFile>  -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
