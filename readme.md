@@ -5,4 +5,4 @@
 ![]( https://pbs.twimg.com/media/FarnBLjXEAIStxl?format=png&name=900x900 )
 
 # Running tests as test suite
-![]( https://pbs.twimg.com/media/FasKYTGXoAAH2Pu?format=png&name=small  ) 
+![]( https://pbs.twimg.com/media/FaseurhWYAEbArP?format=png&name=900x900  ) 
