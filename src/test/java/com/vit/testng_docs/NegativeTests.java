@@ -14,14 +14,14 @@ public class NegativeTests {
 	public void incorrectUsernameTest() {
 		System.out.println("Starting incorrectUsernameTest");
 
-	
-	
 //		Create driver
 		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 
 		// sleep for 3 seconds
 		sleep(3000);
+	
+
 
 		// maximize browser window
 		driver.manage().window().maximize();
