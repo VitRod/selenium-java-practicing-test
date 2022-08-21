@@ -103,15 +103,15 @@ public class NegativeTests {
 						+ actualErrorMessage + "\nExpected: "
 						+ expectedErrorMessage);
 
-
-		
-
-		
-		
 		// Close browser
 		driver.quit();
 	}
 
+		
+
+		
+		
+		
 	private void sleep(long m) {
 		try {
 			Thread.sleep(m);
