@@ -98,15 +98,15 @@ public class NegativeTests {
 		String expectedErrorMessage = "Your password is invalid!";		
 		String actualErrorMessage = errorMessage.getText();
 
-
-
-
-		
-
 		Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),
 				"Actual error message does not contain expected. \nActual: " 
 						+ actualErrorMessage + "\nExpected: "
 						+ expectedErrorMessage);
+
+
+		
+
+		
 		
 		// Close browser
 		driver.quit();
