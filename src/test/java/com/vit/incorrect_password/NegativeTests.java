@@ -83,14 +83,14 @@ public class NegativeTests {
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");
 
-
+//		enter password
+		WebElement password = driver.findElement(By.name("password"));
+		password.sendKeys("incorrectPassword!");
 
 
 		
 
-//		enter password
-		WebElement password = driver.findElement(By.name("password"));
-		password.sendKeys("incorrectPassword!");
+
 
 //		click login button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
