@@ -9,7 +9,9 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.vit.login_tests_combining.LoginTests" />
+			<class name="com.vit.suite.login_tests_combining.LoginTests" />
+			<class name="com.vit.suite.before_after_annotations.LoginTests" />
+					
 		</classes>
 	</test>
 
@@ -20,11 +22,18 @@
 		<parameter name="expectedMessage"
 			value="Your username is invalid!" />
 		<classes>
-			<class name="com.vit.login_tests_combining.LoginTests">
+		
+			<class name="com.vit.suite.login_tests_combining.LoginTests">
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
 			</class>
+			<class name="com.vit.suite.before_after_annotations.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
 		</classes>
 	</test>
 
@@ -35,11 +44,19 @@
 		<parameter name="expectedMessage"
 			value="Your password is invalid!" />
 		<classes>
-			<class name="com.vit.login_tests_combining.LoginTests">
+		
+			<class name="com.vit.suite.login_tests_combining.LoginTests">
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
 			</class>
+			
+			<class name="com.vit.suite.before_after_annotations.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
 		</classes>
 	</test>
 
