@@ -14,6 +14,9 @@ public class NegativeTests {
 	@Test(priority = 1, groups = { "negativeTests", "smokeTests" })
 	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
 		System.out.println("Starting negativeLoginTest with " + username + " and " + password);
+	
+	
+	
 
 //		Create driver
 		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
