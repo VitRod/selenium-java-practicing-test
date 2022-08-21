@@ -93,15 +93,15 @@ public class NegativeTests {
 
 		sleep(3000);
 		
-
-
-
-
-
 		// Verifications
 		WebElement errorMessage = driver.findElement(By.id("flash"));
-		String expectedErrorMessage = "Your password is invalid!";
+		String expectedErrorMessage = "Your password is invalid!";		
 		String actualErrorMessage = errorMessage.getText();
+
+
+
+
+		
 
 		Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),
 				"Actual error message does not contain expected. \nActual: " 
