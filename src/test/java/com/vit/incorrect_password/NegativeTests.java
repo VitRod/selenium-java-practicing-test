@@ -87,16 +87,16 @@ public class NegativeTests {
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("incorrectPassword!");
 
-
-		
-
-
-
 //		click login button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
 		logInButton.click();
 
 		sleep(3000);
+		
+
+
+
+
 
 		// Verifications
 		WebElement errorMessage = driver.findElement(By.id("flash"));
