@@ -1,4 +1,4 @@
-package com.vit.before_after_annotations;
+package com.vit.suite.before_after_annotations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -71,38 +71,38 @@ public class LoginTests {
 						+ "\nExpected Message: " + expectedMessage);
 	}
 
-//	@Parameters({ "username", "password", "expectedMessage" })
-//	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
-//	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
-//		System.out.println("Starting negativeLoginTest with " + username + " and " + password);
-//
-////		open test page
-//		String url = "http://the-internet.herokuapp.com/login";
-//		driver.get(url);
-//		System.out.println("Page is opened.");
-//
-////		enter username
-//		WebElement usernameElement = driver.findElement(By.id("username"));
-//		usernameElement.sendKeys(username);
-//
-////		enter password
-//		WebElement passwordElement = driver.findElement(By.name("password"));
-//		passwordElement.sendKeys(password);
-//
-////		click login button
-//		WebElement logInButton = driver.findElement(By.tagName("button"));
-//		logInButton.click();
-//
-//		sleep(3000);
-//
-//		// Verifications
-//		WebElement errorMessage = driver.findElement(By.id("flash"));
-//		String actualErrorMessage = errorMessage.getText();
-//
-//		Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),
-//				"Actual error message does not contain expected. \nActual: " + actualErrorMessage + "\nExpected: "
-//						+ expectedErrorMessage);
-//	}
+	@Parameters({ "username", "password", "expectedMessage" })
+	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
+	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
+		System.out.println("Starting negativeLoginTest with " + username + " and " + password);
+
+//		open test page
+		String url = "http://the-internet.herokuapp.com/login";
+		driver.get(url);
+		System.out.println("Page is opened.");
+
+//		enter username
+		WebElement usernameElement = driver.findElement(By.id("username"));
+		usernameElement.sendKeys(username);
+
+//		enter password
+		WebElement passwordElement = driver.findElement(By.name("password"));
+		passwordElement.sendKeys(password);
+
+//		click login button
+		WebElement logInButton = driver.findElement(By.tagName("button"));
+		logInButton.click();
+
+		sleep(3000);
+
+		// Verifications
+		WebElement errorMessage = driver.findElement(By.id("flash"));
+		String actualErrorMessage = errorMessage.getText();
+
+		Assert.assertTrue(actualErrorMessage.contains(expectedErrorMessage),
+				"Actual error message does not contain expected. \nActual: " + actualErrorMessage + "\nExpected: "
+						+ expectedErrorMessage);
+	}
 
 	private void sleep(long m) {
 		try {
