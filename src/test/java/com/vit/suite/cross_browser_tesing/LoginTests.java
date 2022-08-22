@@ -44,11 +44,11 @@ public class LoginTests {
 
 		// maximize browser window
 		driver.manage().window().maximize();
-
-		
-
-		
 	}
+		
+
+		
+	
 
 	@Test(priority = 1, groups = { "positiveTests", "smokeTests" })
 	public void positiveLoginTest() {
