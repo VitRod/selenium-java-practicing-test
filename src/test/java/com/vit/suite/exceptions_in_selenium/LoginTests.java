@@ -50,12 +50,12 @@ public class LoginTests {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
-	
-
-		
 	@Test(priority = 1, groups = { "positiveTests", "smokeTests" })
 	public void positiveLoginTest() {
 		System.out.println("Starting loginTest");
+
+		
+	
 
 //		open test page
 		String url = "http://the-internet.herokuapp.com/login";
