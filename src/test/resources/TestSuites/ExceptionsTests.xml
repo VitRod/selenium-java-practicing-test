@@ -5,7 +5,7 @@
 	<test name="Exceptions Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.herokuapp.theinternet.ExceptionsTests">
+			<class name="com.vit.suite.exceptions_in_selenium.ExceptionsTests">
 				<methods>
 					<include name="disabledElementTest"></include>
 				</methods>

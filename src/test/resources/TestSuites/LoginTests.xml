@@ -15,7 +15,8 @@
 			<class name="com.vit.suite.cross_browser_tesing.LoginTests" />
 			<class name="com.vit.suite.debugging.LoginTests" />
 			<class name="com.vit.suite.wait_methods.LoginTests" />
-																		
+			<class name="com.vit.suite.exceptions_in_selenium.LoginTests" />
+																				
 		</classes>
 	</test>
 
@@ -50,6 +51,12 @@
 			</class>
 			
 			<class name="com.vit.suite.wait_methods.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.exceptions_in_selenium.LoginTests">
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
@@ -96,6 +103,11 @@
 				</methods>
 			</class>
 			
+			<class name="com.vit.suite.exceptions_in_selenium.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
 			
 		</classes>
 	</test>
