@@ -43,11 +43,11 @@ public class LoginTests {
 			break;
 		}
 
-		
-
 		// sleep for 3 seconds
 		sleep(3000);
 
+
+		
 		// maximize browser window
 		driver.manage().window().maximize();
 		
