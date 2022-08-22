@@ -31,12 +31,12 @@ public class LoginTests {
 			driver = new ChromeDriver();
 			break;
 
-		
-
 		case "firefox":
 			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
+
+		
 
 		default:
 			System.out.println("Do not know how to start " + browser + ", starting chrome instead");
