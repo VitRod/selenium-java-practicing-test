@@ -13,7 +13,8 @@
 			<class name="com.vit.suite.login_tests_combining.LoginTests" />
 			<class name="com.vit.suite.before_after_annotations.LoginTests" />
 			<class name="com.vit.suite.cross_browser_tesing.LoginTests" />
-								
+			<class name="com.vit.suite.debugging.LoginTests" />
+															
 		</classes>
 	</test>
 
@@ -36,6 +37,12 @@
 				</methods>
 			</class>
 			<class name="com.vit.suite.cross_browser_tesing.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.debugging.LoginTests">
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
@@ -65,6 +72,12 @@
 			</class>
 			
 			<class name="com.vit.suite.cross_browser_tesing.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.debugging.LoginTests">
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
