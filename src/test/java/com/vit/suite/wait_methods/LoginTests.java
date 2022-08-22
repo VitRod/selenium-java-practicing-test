@@ -46,10 +46,10 @@ public class LoginTests {
 		// sleep for 3 seconds
 		sleep(3000);
 
-
-		
 		// maximize browser window
 		driver.manage().window().maximize();
+		
+		
 		
 		// implicit wait
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
