@@ -18,9 +18,6 @@ public class LoginTests {
 	
 	private WebDriver driver;
 	
-	
-	
-
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
 	private void setUp(@Optional("chrome") String browser) {
@@ -42,6 +39,9 @@ public class LoginTests {
 			driver = new ChromeDriver();
 			break;
 		}
+	
+
+	
 
 		// sleep for 3 seconds
 		sleep(3000);
