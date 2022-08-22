@@ -5,5 +5,5 @@
 ![]( https://pbs.twimg.com/media/FarnBLjXEAIStxl?format=png&name=900x900 )
 
 # Running tests as test suite
-![](https://pbs.twimg.com/media/Fav0itIWQAAlfBs?format=png&name=900x900 ) 
-![]( https://pbs.twimg.com/media/Fav0kc1WIAAk3Mt?format=png&name=small  )
+![]( https://pbs.twimg.com/media/FawEbp1XEAI4J-I?format=png&name=900x900  ) 
+![]( https://pbs.twimg.com/media/FawEd_pWYAAXdtW?format=png&name=small  )
