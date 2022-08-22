@@ -40,19 +40,19 @@ public class LoginTests {
 			break;
 		}
 	
-
-	
-
 		// sleep for 3 seconds
 		sleep(3000);
 
 		// maximize browser window
 		driver.manage().window().maximize();
-		
+				
 		// implicit wait
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
+	
+
+		
 	@Test(priority = 1, groups = { "positiveTests", "smokeTests" })
 	public void positiveLoginTest() {
 		System.out.println("Starting loginTest");
