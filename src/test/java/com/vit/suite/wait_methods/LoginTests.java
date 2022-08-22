@@ -36,14 +36,14 @@ public class LoginTests {
 			driver = new FirefoxDriver();
 			break;
 
-		
-
 		default:
 			System.out.println("Do not know how to start " + browser + ", starting chrome instead");
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		}
+
+		
 
 		// sleep for 3 seconds
 		sleep(3000);
