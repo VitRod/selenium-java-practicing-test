@@ -42,12 +42,12 @@ public class LoginTests {
 		// sleep for 3 seconds
 		sleep(3000);
 
-		
-
-		
-
 		// maximize browser window
 		driver.manage().window().maximize();
+
+		
+
+		
 	}
 
 	@Test(priority = 1, groups = { "positiveTests", "smokeTests" })
