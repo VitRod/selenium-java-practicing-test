@@ -20,12 +20,12 @@ public class LoginTests {
 	
 	private WebDriver driver;
 	
-	
-	
-
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
 	private void setUp(@Optional("chrome") String browser) {
+	
+
+	
 //		Create driver
 		switch (browser) {
 		case "chrome":
