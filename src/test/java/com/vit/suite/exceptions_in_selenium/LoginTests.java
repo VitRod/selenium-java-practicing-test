@@ -54,13 +54,13 @@ public class LoginTests {
 	public void positiveLoginTest() {
 		System.out.println("Starting loginTest");
 
-		
-	
-
 //		open test page
 		String url = "http://the-internet.herokuapp.com/login";
 		driver.get(url);
 		System.out.println("Page is opened.");
+	
+
+
 
 //		enter username
 		WebElement username = driver.findElement(By.id("username"));
