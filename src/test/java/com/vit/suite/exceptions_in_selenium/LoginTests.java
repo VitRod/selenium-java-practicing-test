@@ -74,10 +74,10 @@ public class LoginTests {
 		wait.until(ExpectedConditions.elementToBeClickable(logInButton));
 		logInButton.click();	
 		
-
-
-
 		sleep(3000);
+
+
+		
 
 //		verifications:
 //		 new url
