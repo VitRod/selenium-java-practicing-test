@@ -97,9 +97,9 @@ public class LoginTests {
 		Assert.assertTrue(actualMessage.contains(expectedMessage),
 				"Actual message does not contain expected message.\nActual Message: " + actualMessage
 						+ "\nExpected Message: " + expectedMessage);
-
-		
 	}
+		
+	
 
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
