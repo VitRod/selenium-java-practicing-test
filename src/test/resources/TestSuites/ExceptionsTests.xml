@@ -10,6 +10,13 @@
 					<include name="disabledElementTest"></include>
 				</methods>
 			</class>
+			
+			<class name="com.vit.suite.elem_not_visible_exception.ExceptionsTests">
+				<methods>
+					<include name="disabledElementTest"></include>
+				</methods>
+			</class>
+			
 		</classes>
 	</test>
    
