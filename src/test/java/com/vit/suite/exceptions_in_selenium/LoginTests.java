@@ -82,12 +82,12 @@ public class LoginTests {
 		String actualUrl = driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl, "Actual page url is not the same as expected");
 
-		
-
-
 //		 logout button is visible
 		WebElement logOutButton = driver.findElement(By.xpath("//a[@class='button secondary radius']"));
 		Assert.assertTrue(logOutButton.isDisplayed(), "Log Out button is not visible");
+
+
+
 
 //		 succesful login message
 		// WebElement successMessage = driver.findElement(By.cssSelector("#flash"));
