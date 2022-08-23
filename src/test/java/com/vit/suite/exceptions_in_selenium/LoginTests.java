@@ -76,14 +76,14 @@ public class LoginTests {
 		
 		sleep(3000);
 
-
-		
-
 //		verifications:
 //		 new url
 		String expectedUrl = "http://the-internet.herokuapp.com/secure";
 		String actualUrl = driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl, "Actual page url is not the same as expected");
+
+		
+
 
 //		 logout button is visible
 		WebElement logOutButton = driver.findElement(By.xpath("//a[@class='button secondary radius']"));
