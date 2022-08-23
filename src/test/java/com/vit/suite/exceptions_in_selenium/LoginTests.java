@@ -113,13 +113,13 @@ public class LoginTests {
 		WebElement usernameElement = driver.findElement(By.id("username"));
 		usernameElement.sendKeys(username);
 
-		
-		
-
-
 //		enter password
 		WebElement passwordElement = driver.findElement(By.name("password"));
 		passwordElement.sendKeys(password);
+		
+
+
+
 
 //		click login button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
