@@ -104,12 +104,12 @@ public class LoginTests {
 	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
 		System.out.println("Starting negativeLoginTest with " + username + " and " + password);
 
-	
-
 //		open test page
 		String url = "http://the-internet.herokuapp.com/login";
 		driver.get(url);
 		System.out.println("Page is opened.");
+
+
 
 //		enter username
 		WebElement usernameElement = driver.findElement(By.id("username"));
