@@ -15,6 +15,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ExceptionsTests {
+	
+	
 	private WebDriver driver;
 
 	@Parameters({ "browser" })
