@@ -92,13 +92,13 @@ public class LoginTests {
 		String expectedMessage = "You logged into a secure area!";
 		String actualMessage = successMessage.getText();
 
-
-
 		// Assert.assertEquals(actualMessage, expectedMessage, "Actual message is not
-		// the same as expected");
+				// the same as expected");
 		Assert.assertTrue(actualMessage.contains(expectedMessage),
 				"Actual message does not contain expected message.\nActual Message: " + actualMessage
 						+ "\nExpected Message: " + expectedMessage);
+
+		
 	}
 
 	@Parameters({ "username", "password", "expectedMessage" })
