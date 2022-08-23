@@ -67,10 +67,10 @@ public class LoginTests {
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("SuperSecretPassword!");
 
-
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 
 		
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		
 
 //		click login button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
