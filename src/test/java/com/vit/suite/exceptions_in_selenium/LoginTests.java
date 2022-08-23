@@ -109,11 +109,13 @@ public class LoginTests {
 		driver.get(url);
 		System.out.println("Page is opened.");
 
-
-
 //		enter username
 		WebElement usernameElement = driver.findElement(By.id("username"));
 		usernameElement.sendKeys(username);
+
+		
+		
+
 
 //		enter password
 		WebElement passwordElement = driver.findElement(By.name("password"));
