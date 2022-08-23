@@ -86,14 +86,14 @@ public class LoginTests {
 		WebElement logOutButton = driver.findElement(By.xpath("//a[@class='button secondary radius']"));
 		Assert.assertTrue(logOutButton.isDisplayed(), "Log Out button is not visible");
 
-
-
-
 //		 succesful login message
 		// WebElement successMessage = driver.findElement(By.cssSelector("#flash"));
 		WebElement successMessage = driver.findElement(By.xpath("//div[@id='flash']"));
 		String expectedMessage = "You logged into a secure area!";
 		String actualMessage = successMessage.getText();
+
+
+
 		// Assert.assertEquals(actualMessage, expectedMessage, "Actual message is not
 		// the same as expected");
 		Assert.assertTrue(actualMessage.contains(expectedMessage),
