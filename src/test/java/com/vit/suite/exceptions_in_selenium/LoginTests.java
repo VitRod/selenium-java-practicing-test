@@ -63,12 +63,12 @@ public class LoginTests {
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");
 
-
-
-
 //		enter password
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("SuperSecretPassword!");
+
+
+
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 
