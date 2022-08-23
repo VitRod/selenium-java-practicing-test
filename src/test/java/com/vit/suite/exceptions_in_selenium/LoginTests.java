@@ -69,13 +69,13 @@ public class LoginTests {
 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 
-		
-		
-
 //		click login button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
 		wait.until(ExpectedConditions.elementToBeClickable(logInButton));
-		logInButton.click();
+		logInButton.click();	
+		
+
+
 
 		sleep(3000);
 
