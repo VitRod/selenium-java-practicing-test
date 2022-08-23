@@ -15,7 +15,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ExceptionsTests {
+	
 	private WebDriver driver;
+	
 
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
@@ -38,6 +40,8 @@ public class ExceptionsTests {
 			driver = new ChromeDriver();
 			break;
 		}
+		
+		
 
 		// sleep for 3 seconds
 		sleep(3000);
@@ -47,6 +51,8 @@ public class ExceptionsTests {
 		
 		// implicit wait
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	
+	
 	}
 	
 	
@@ -74,6 +80,8 @@ public class ExceptionsTests {
 		Assert.assertTrue(finishText.contains("Hello World!"), "Finish text: " + finishText);
 		
 		//startButton.click();
+	
+		
 		
 	}
 	
@@ -88,6 +96,8 @@ public class ExceptionsTests {
 		}
 	}
 
+	
+	
 	@AfterMethod(alwaysRun = true)
 	private void tearDown() {
 		// Close browser
