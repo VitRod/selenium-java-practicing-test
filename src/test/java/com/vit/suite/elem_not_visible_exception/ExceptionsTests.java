@@ -81,9 +81,9 @@ public class ExceptionsTests {
 		
 		//startButton.click();
 	
+	}	
 		
-		
-	}
+	
 	
 	private void sleep(long m) {
 		try {
