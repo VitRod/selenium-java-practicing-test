@@ -99,12 +99,12 @@ public class LoginTests {
 						+ "\nExpected Message: " + expectedMessage);
 	}
 		
-	
-
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
 	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
 		System.out.println("Starting negativeLoginTest with " + username + " and " + password);
+
+	
 
 //		open test page
 		String url = "http://the-internet.herokuapp.com/login";
