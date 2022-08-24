@@ -70,11 +70,11 @@ public class ExceptionsTests {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOf(finishElement));
 		
-		
-		
-		
-		
 		String finishText = finishElement.getText();
+		
+		
+		
+		
 		
 		// compare actual finish element text with expected "Hello World!" using Test NG Assert class
 		Assert.assertTrue(finishText.contains("Hello World!"), "Finish text: " + finishText);
