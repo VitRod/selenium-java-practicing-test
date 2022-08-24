@@ -83,8 +83,6 @@ public class ExceptionsTests {
 	
 	}	
 		
-	
-	
 	private void sleep(long m) {
 		try {
 			Thread.sleep(m);
@@ -92,6 +90,8 @@ public class ExceptionsTests {
 			e.printStackTrace();
 		}
 	}
+	
+	
 	
 	@AfterMethod(alwaysRun = true)
 	private void tearDown() {
