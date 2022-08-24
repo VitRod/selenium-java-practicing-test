@@ -76,10 +76,10 @@ public class ExceptionsTests {
 		Assert.assertTrue(finishText.contains("Hello World!"), "Finish text: " + finishText);
 		
 		
-		
-		
-		
 		//startButton.click();
+		
+		
+		
 	
 	}	
 		
