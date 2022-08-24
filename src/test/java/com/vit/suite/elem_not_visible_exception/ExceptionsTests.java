@@ -67,12 +67,12 @@ public class ExceptionsTests {
 		// Then get finish element text
 		WebElement finishElement = driver.findElement(By.id("finish"));
 				
-		
-		
-		
-		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOf(finishElement));
+		
+		
+		
+		
 		
 		String finishText = finishElement.getText();
 		
