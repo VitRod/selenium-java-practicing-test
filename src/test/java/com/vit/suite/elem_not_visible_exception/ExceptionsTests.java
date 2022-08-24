@@ -60,13 +60,13 @@ public class ExceptionsTests {
 		// open the page http://the-internet.herokuapp.com/dynamic_loading/1
 		driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
 	
-	
-	
-	
-		
 		// Find locator for startButton and click on it
 		WebElement startButton = driver.findElement(By.xpath("//div[@id='start']/button"));
 		startButton.click();
+	
+	
+		
+		
 		
 		// Then get finish element text
 		WebElement finishElement = driver.findElement(By.id("finish"));
