@@ -18,6 +18,9 @@
 			<class name="com.vit.suite.exceptions_in_selenium.LoginTests" />
 			<class name="com.vit.suite.elem_not_visible_exception.LoginTests" />
 			<class name="com.vit.suite.timeout_exception.LoginTests" />
+			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" />
+			
+			
 																							
 		</classes>
 	</test>
@@ -76,6 +79,13 @@
 				</methods>
 			</class>
 			
+			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" >
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			
 		</classes>
 	</test>
 
@@ -130,6 +140,12 @@
 			</class>
 			
 			<class name="com.vit.suite.timeout_exception.LoginTests" >
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" >
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
