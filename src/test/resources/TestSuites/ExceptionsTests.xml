@@ -17,6 +17,12 @@
 				</methods>
 			</class>
 			
+			<class name="com.vit.suite.timeout_exception.ExceptionsTests">
+				<methods>
+					<include name="disabledElementTest"></include>
+				</methods>
+			</class>
+			
 		</classes>
 	</test>
    
