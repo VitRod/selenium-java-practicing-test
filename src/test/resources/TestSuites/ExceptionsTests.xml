@@ -23,6 +23,14 @@
 				</methods>
 			</class>
 			
+			<class name="com.vit.suite.nosuch_elem_exception.ExceptionsTests">
+				<methods>
+					<include name="disabledElementTest"></include>
+				</methods>
+			</class>
+			
+			
+			
 		</classes>
 	</test>
    
