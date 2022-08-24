@@ -64,12 +64,12 @@ public class ExceptionsTests {
 		WebElement startButton = driver.findElement(By.xpath("//div[@id='start']/button"));
 		startButton.click();
 	
-	
-		
-		
-		
 		// Then get finish element text
 		WebElement finishElement = driver.findElement(By.id("finish"));
+				
+		
+		
+		
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOf(finishElement));
