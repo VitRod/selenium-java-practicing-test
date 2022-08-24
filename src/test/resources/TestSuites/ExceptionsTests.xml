@@ -29,6 +29,12 @@
 				</methods>
 			</class>
 			
+			<class name="com.vit.suite.stale_elem_ref_exception.ExceptionsTests">
+				<methods>
+					<include name="disabledElementTest"></include>
+				</methods>
+			</class>
+			
 			
 			
 		</classes>

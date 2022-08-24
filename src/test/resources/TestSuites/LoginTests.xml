@@ -19,7 +19,7 @@
 			<class name="com.vit.suite.elem_not_visible_exception.LoginTests" />
 			<class name="com.vit.suite.timeout_exception.LoginTests" />
 			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" />
-			
+			<class name="com.vit.suite.stale_elem_ref_exception.LoginTests" />
 			
 																							
 		</classes>
@@ -80,6 +80,12 @@
 			</class>
 			
 			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" >
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.stale_elem_ref_exception.LoginTests" >
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
@@ -146,6 +152,12 @@
 			</class>
 			
 			<class name="com.vit.suite.nosuch_elem_exception.LoginTests" >
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.vit.suite.stale_elem_ref_exception.LoginTests" >
 				<methods>
 					<include name="negativeLoginTest"></include>
 				</methods>
