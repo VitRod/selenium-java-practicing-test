@@ -91,15 +91,15 @@ public class ExceptionsTests {
 		}
 	}
 	
-	
-	
 	@AfterMethod(alwaysRun = true)
 	private void tearDown() {
 		// Close browser
 		driver.quit();
 	}
-
+	
 }
+
+
 
 	
 	
