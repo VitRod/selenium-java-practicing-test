@@ -147,5 +147,5 @@ public class LoginTests {
 		// Close browser
 		driver.quit();
 	}
-
 }
+
