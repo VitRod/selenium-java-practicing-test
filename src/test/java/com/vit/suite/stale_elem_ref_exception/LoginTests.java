@@ -15,8 +15,11 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class LoginTests {
+	
+
 	private WebDriver driver;
 
+	
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
 	private void setUp(@Optional("chrome") String browser) {
